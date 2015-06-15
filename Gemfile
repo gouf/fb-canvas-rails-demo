@@ -44,6 +44,8 @@ group :development, :test do
 end
 
 
+gem 'puma'
+
 group :doc do
   gem 'yard'
 end
