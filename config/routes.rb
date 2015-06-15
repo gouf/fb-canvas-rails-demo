@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'users/index'
+  post '/' => 'users#index'
   root 'users#index'
 
   resources :users
